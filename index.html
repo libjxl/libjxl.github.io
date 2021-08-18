@@ -58,6 +58,7 @@
             @media screen and (min-width: 1400px) {
                 .boxes { width: 85%; }
                 .box { width: 33.3333333333%; min-height: 22vw; }
+                .bigbox { width: 50%; }
             }
             @media screen and (min-width: 1600px) {
                 .boxes { width: 80%; }
@@ -107,7 +108,7 @@
                 <img src="jxl.svg" alt="JPEG XL logo (jxl ambigram) by Boaz Lederer" width="40%" class="ambigram">
                 </center>
                 <p>
-                    Welcome to the JPEG XL and libjxl community website.
+                    Welcome to the <a href="https://jpeg.org/jpegxl">JPEG XL</a> and <a href="https://github.com/libjxl/libjxl">libjxl</a> community website.
                 </p>
                 <p>
                     If you want to update this site, make a pull request at <a href="https://github.com/libjxl/libjxl.github.io">github.com/<wbr>libjxl/<wbr>libjxl.github.io</a>.
@@ -135,6 +136,84 @@
                     Media type (formerly known as MIME type): <code>image/jxl</code>
                 </p><p>
                     <a href="jxl-art.html">JXL Art!</a>
+                </p>
+            </div></div>
+            <div class="box"><div class="vcenter">
+                <h2>Key features</h2>
+                <p>
+                    <ul>
+                    <li><a href="https://cloudinary.com/blog/what_to_focus_on_in_image_compression_fidelity_or_appeal">High-fidelity</a> lossy image compression</li>
+                    <li><a href="https://docs.google.com/spreadsheets/d/1ju4q1WkaXT7WoxZINmQpf4ElgMD2VMlqeDN2DuZ6yJ8/edit?usp=sharing">Best lossless</a> image compression</li>
+                    <li><a href="https://youtu.be/UphN1_7nP8U">Progressive decoding</a></li>
+                    <li><a href="https://cloudinary.com/blog/legacy_and_transition_creating_a_new_universal_image_codec">Lossless JPEG transcoding</a></li>
+                    <li>Designed for both photographic and synthetic images</li>
+                    <li>Fast software encoding and decoding</li>
+                    <li>Full support for wide gamut and HDR</li>
+                    <li>Perceptually optimizing reference encoder</li>
+                    <li><a href="https://github.com/libjxl/libjxl/blob/main/LICENSE">FOSS and royalty-free</a></li>
+                    </ul>
+                </p>
+            </div></div>
+            <div class="box"><div class="vcenter">
+                <h2>Compression</h2>
+                <p>
+                    <ul>
+                    <li>Lossy: about 60% smaller than JPEG for same visual quality</li>
+                    <li>Lossless JPEG transcoding: about 20% smaller</li>
+                    <li>Lossless: about 35% smaller than PNG (50% smaller for HDR)</li>
+                    </ul>
+                </p>
+                <p>
+                    <a href="https://eclipseo.github.io/image-comparison-web">Compare with your own eyes (by Eclipseo)</a><br>
+                    <a href="https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html">Comparisons by WebP2 team</a><br>
+                    Try it: <a href="https://squoosh.app">Squoosh.app</a>
+                </p>
+            </div></div>
+            <div class="box"><div class="vcenter">
+                <h2>Software</h2>
+                <p>
+                    <ul>
+                    <li><a href="https://github.com/libjxl/libjxl">JPEG XL reference implementation</a> (libjxl)
+                        <a href="https://artifacts.lucaversari.it/libjxl/libjxl/latest/">(nightly dev builds)</a>
+                    </li>
+                    <li><a href="https://www.google.com/chrome">Chrome</a>: behind a flag since version 91.0.4470.0</li>
+                    <li><a href="https://www.mozilla.org/firefox">Firefox</a>: behind a flag since version 90.0a1</li>
+                    <li><a href="https://www.microsoft.com/edge">Edge</a>: behind a flag since version 91</li>
+                    <li><a href="https://www.opera.com">Opera</a>: behind a flag since version 77</li>
+                    <li><a href="https://imagemagick.org">ImageMagick</a>: since version 7.0.10-54</li>
+                    <li><a href="https://www.xnview.com/en/xnviewmp/">XnView MP</a>: since version 0.97.0</li>
+                    <li><a href="https://imageglass.org">ImageGlass</a>: since version 8.1.4.18</li>
+                    <li><a href="https://exiftool.org">ExifTool</a>: since version 12.23</li>
+                    <li><a href="https://gitlab.gnome.org/GNOME/gthumb">gThumb</a>: since version 3.11.3</li>
+                    <li><a href="https://www.openmandriva.org">OpenMandriva Lx</a>: since version 4.3 RC</li>
+                    </ul>
+                </p>
+            </div></div>
+            <div class="box"><div class="vcenter">
+                <h2>Blog posts</h2>
+                <p>
+                    <ul>
+                    <li><a href="https://cloudinary.com/blog/time_for_next_gen_codecs_to_dethrone_jpeg">Time for Next-Gen Codecs to Dethrone JPEG</a> (February 2021)</li>
+                    <li><a href="https://cloudinary.com/blog/legacy_and_transition_creating_a_new_universal_image_codec">Legacy and Transition: Creating a New Universal Image Codec</a> (January 2021)</li>
+                    <li><a href="https://cloudinary.com/blog/improve_the_web_experience_with_progressive_image_decoding">Improve the Web Experience With Progressive Image Decoding</a> (January 2021)</li>
+                    <li><a href="https://cloudinary.com/blog/what_to_focus_on_in_image_compression_fidelity_or_appeal">What to Focus on in Image Compression: Fidelity Or Appeal</a> (December 2020)</li>
+                    <li><a href="https://cloudinary.com/blog/cloudinary_supports_jpeg_xl">Cloudinary supports JPEG XL</a> (November 2020)</li>
+                    <li><a href="https://cloudinary.com/blog/how_jpeg_xl_compares_to_other_image_codecs">How JPEG XL compares to other image codecs</a> (May 2020)</li>
+                    <li>FUIF: <a href="https://cloudinary.com/blog/introducing_fuif_responsive_images_by_design">Introducing FUIF</a>,
+                            <a href="https://cloudinary.com/blog/fuif_why_do_we_need_a_new_image_file_format">Why another image format?</a>,
+                            <a href="https://cloudinary.com/blog/fuif_new_legacy_friendly_image_file_format">Legacy friendliness</a> (December 2018)</li>
+                    </ul>
+                </p>
+            </div></div>
+            <div class="box"><div class="vcenter">
+                <h2>Presentations</h2>
+                <p>
+                    <ul>
+                    <li><a href="https://docs.google.com/presentation/d/1LlmUR0Uoh4dgT3DjanLjhlXrk_5W2nJBDqDAMbhe8v8/edit?usp=sharing">JPEG XL overview</a> (slide deck is kept up-to-date)</li>
+                    <li><a href="http://ds.jpeg.org/whitepapers/jpeg-xl-whitepaper.pdf">JPEG XL White Paper</a>, January 2021</li>
+                    <li><a href="https://youtu.be/t63DBrQCUWc">JPEG XL: The Next Generation "Alien Technology From The Future"</a>, ImageReady, October 2020</li>
+                    <li><a href="https://youtu.be/RYJf7kelYQQ">Next-generation of Image Formats for the Web</a>, ImageCon, May 2019</li>
+                    </ul>
                 </p>
             </div></div>
             <div class="box"><div class="vcenter">
@@ -179,88 +258,13 @@
                 <br>
                 </p>
             </div></div>
-            <div class="box"><div class="vcenter">
-                <h2>Key features</h2>
-                <p>
-                    <ul>
-                    <li><a href="https://cloudinary.com/blog/what_to_focus_on_in_image_compression_fidelity_or_appeal">High-fidelity</a> lossy image compression</li>
-                    <li><a href="https://docs.google.com/spreadsheets/d/1ju4q1WkaXT7WoxZINmQpf4ElgMD2VMlqeDN2DuZ6yJ8/edit?usp=sharing">Best lossless</a> image compression</li>
-                    <li><a href="https://youtu.be/UphN1_7nP8U">Progressive decoding</a></li>
-                    <li><a href="https://cloudinary.com/blog/legacy_and_transition_creating_a_new_universal_image_codec">Lossless JPEG transcoding</a></li>
-                    <li>Designed for both photographic and synthetic images</li>
-                    <li>Fast software encoding and decoding</li>
-                    <li>Full support for wide gamut and HDR</li>
-                    <li>Perceptually optimizing reference encoder</li>
-                    <li><a href="https://github.com/libjxl/libjxl/blob/main/LICENSE">FOSS and royalty-free</a></li>
-                    </ul>
-                </p>
-            </div></div>
-            <div class="box"><div class="vcenter">
-                <h2>Compression</h2>
-                <p>
-                    <ul>
-                    <li>Lossy: about 60% smaller than JPEG for same visual quality</li>
-                    <li>Lossless JPEG transcoding: about 20% smaller</li>
-                    <li>Lossless: about 35% smaller than PNG (50% smaller for HDR)</li>
-                    </ul>
-                </p>
-                <p>
-                    <a href="https://eclipseo.github.io/image-comparison-web">Compare with your own eyes (by Eclipseo)</a><br>
-                    <a href="https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html">Comparisons by WebP2 team</a><br>
-                    Try it: <a href="https://squoosh.app">Squoosh.app</a>
-                </p>
-            </div></div>
-            <div class="box"><div class="vcenter">
-                <h2>Software</h2>
-                <p>
-                    <ul>
-                    <li><a href="https://github.com/libjxl/libjxl">JPEG XL reference implementation</a> (libjxl)</li>
-                    <li><a href="https://www.google.com/chrome">Chrome</a>: behind a flag since version 91.0.4470.0</li>
-                    <li><a href="https://www.mozilla.org/firefox">Firefox</a>: behind a flag since version 90.0a1</li>
-                    <li><a href="https://www.microsoft.com/edge">Edge</a>: behind a flag since version 91</li>
-                    <li><a href="https://www.opera.com">Opera</a>: behind a flag since version 77</li>
-                    <li><a href="https://imagemagick.org">ImageMagick</a>: since version 7.0.10-54</li>
-                    <li><a href="https://www.xnview.com/en/xnviewmp/">XnView MP</a>: since version 0.97.0</li>
-                    <li><a href="https://imageglass.org">ImageGlass</a>: since version 8.1.4.18</li>
-                    <li><a href="https://exiftool.org">ExifTool</a>: since version 12.23</li>
-                    <li><a href="https://gitlab.gnome.org/GNOME/gthumb">gThumb</a>: since version 3.11.3</li>
-                    <li><a href="https://www.openmandriva.org">OpenMandriva Lx</a>: since version 4.3 RC</li>
-                    </ul>
-                </p>
-            </div></div>
-            <div class="box"><div class="vcenter">
-                <h2>Blog posts</h2>
-                <p>
-                    <ul>
-                    <li><a href="https://cloudinary.com/blog/time_for_next_gen_codecs_to_dethrone_jpeg">Time for Next-Gen Codecs to Dethrone JPEG</a> (February 2021)</li>
-                    <li><a href="https://cloudinary.com/blog/legacy_and_transition_creating_a_new_universal_image_codec">Legacy and Transition: Creating a New Universal Image Codec</a> (January 2021)</li>
-                    <li><a href="https://cloudinary.com/blog/improve_the_web_experience_with_progressive_image_decoding">Improve the Web Experience With Progressive Image Decoding</a> (January 2021)</li>
-                    <li><a href="https://cloudinary.com/blog/what_to_focus_on_in_image_compression_fidelity_or_appeal">What to Focus on in Image Compression: Fidelity Or Appeal</a> (December 2020)</li>
-                    <li><a href="https://cloudinary.com/blog/cloudinary_supports_jpeg_xl">Cloudinary supports JPEG XL</a> (November 2020)</li>
-                    <li><a href="https://cloudinary.com/blog/how_jpeg_xl_compares_to_other_image_codecs">How JPEG XL compares to other image codecs</a> (May 2020)</li>
-                    <li>FUIF: <a href="https://cloudinary.com/blog/introducing_fuif_responsive_images_by_design">Introducing FUIF</a>,
-                            <a href="https://cloudinary.com/blog/fuif_why_do_we_need_a_new_image_file_format">Why another image format?</a>,
-                            <a href="https://cloudinary.com/blog/fuif_new_legacy_friendly_image_file_format">Legacy friendliness</a> (December 2018)</li>
-                    </ul>
-                </p>
-            </div></div>
-            <div class="box"><div class="vcenter">
-                <h2>Presentations</h2>
-                <p>
-                    <ul>
-                    <li><a href="https://docs.google.com/presentation/d/1LlmUR0Uoh4dgT3DjanLjhlXrk_5W2nJBDqDAMbhe8v8/edit?usp=sharing">JPEG XL overview</a> (slide deck is kept up-to-date)</li>
-                    <li><a href="https://youtu.be/t63DBrQCUWc">JPEG XL: The Next Generation "Alien Technology From The Future"</a>, ImageReady, October 2020</li>
-                    <li><a href="https://youtu.be/RYJf7kelYQQ">Next-generation of Image Formats for the Web</a>, ImageCon, May 2019</li>
-                    </ul>
-                </p>
-            </div></div>
             <div class="bigbox">
                 <h2>Comparison table</h2>
                 <center>
                 <a href="https://cloudinary.com/blog/time_for_next_gen_codecs_to_dethrone_jpeg">
                 <picture>
                     <source srcset="comparison.jxl" type="image/jxl">
-                    <img src="comparison.png" alt="Battle of the Codecs: a comparison of JPEG, PNG, J2K, WebP, HEIC, AVIF, and JXL" style="max-height: 120vh; max-width: 100%">
+                    <img src="comparison.png" alt="Battle of the Codecs: a comparison of JPEG, PNG, J2K, WebP, HEIC, AVIF, and JXL" style="max-height: 100vh; max-width: 100%">
                 </picture>
                 </a>
                 </center>
