@@ -1,3 +1,6 @@
-# libjxl.github.io
+# Moved
 
-libjxl home page https://jpegxl.info/
+This repository was moved to https://github.com/jxl-community/jxl-community.github.io
+
+At some point, an official libjxl website might be put here.
+
